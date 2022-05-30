@@ -16,5 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PageController@home')->name('home');
 Route::get('/contact', 'PageController@contact')->name('contact');
 
+//rotta per birre 
+
+Route::get('/index', 'BeerController@index')->name('beer');
+
 
 
